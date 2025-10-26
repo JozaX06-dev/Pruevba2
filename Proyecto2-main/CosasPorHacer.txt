@@ -1,0 +1,87 @@
+a. Los grupos deben de utilizar el flujo de procesos y acciones que se muestran en la
+imagen de abajo para poder realizar las implementaciones que se relacionan a los
+procesos de emisión de cheques de una persona empleada, ejemplo:
+
+    1. Cheques de pago de salario al empleado.
+    2. Cheques de caja chica.
+    3. Cheques de gastos varios.
+
+TEMAS QUE HAY QUE USAR, TODOS!!
+    a. Colas.
+    b. Pilas.
+    c. Diccionarios.
+    d. Listas.
+    e. Recursividad general.
+    f. Algoritmos de ordenamiento
+
+Debe de implementar estructuras y formatos de fechas para el flujo
+de impresión de cheques, por ejemplo:
+    a. fecha de emisión, del cheque.
+    b. fecha máxima de cobro, del cheque.
+
+Debe de utilizar al menos 30 campos diferentes para la
+implementación total del flujo, pueden ser más en caso de ser
+necesario, deben de incluir fechas y manejo adecuado de sus
+formatos.
+
+
+Entradas:
+Debe de implementar:
+    a. Gráficamente el contenido en una cola:
+        i. Exactamente para hacer el proceso de “Calcular
+        Neto Empleado”
+        ii. Mostrar gráficamente su contenido y poder ver los
+            cheques que se van procesado.
+
+Gráficamente el contenido en una pila:
+    i. Exactamente para hacer los procesos:
+        1. “Obtener Neto por Horas”.
+            a. Mostrar gráficamente su contenido y
+                poder ver la data que se van
+                procesado.
+    2. “Calcular Neto por Contrato”
+        a. Mostrar gráficamente su contenido y
+            poder ver la data que se van
+            procesado.
+
+Gráficamente el contenido en un diccionario:
+    i. Para manejar los datos y realizar los procesos:
+        1. “Calcular Bruto por horas”.
+        2. Calcular Deducciones Normales”.
+        3. Calcular Otras Deducciones.
+Gráficamente el contenido en una Tupla o lista:
+    i. Para manejar el proceso “Imprimir Cheque”.
+    a. Mostrar gráficamente su contenido y
+        poder ver la data que se van
+        procesado.
+
+El programa tiene que manejar exactamente el flujo de procesos
+graficado al inicio de este documento, con la siguiente información (y
+cualquier otra información necesaria que sea útil apoyar los cálculos):
+    1. Información del empleado completa.
+    2. Salario Bruto.
+    3. Horas extras brutas.
+    4. Deducciones para las horas extras.
+    5. Deducciones para el salario bruto.
+    6. Otras deducciones sobre el salario neto, por ejemplo, pensión
+    alimentaria.
+        a. Debe de implementar al menos 2 deducciones, del tipo
+            “Otras Deducciones” sobre el salario neto.
+    7. Tiene que usar un archivo .csv para manejar la información del
+    empleado, así como toda la información relacionada con horas
+    extra, salario bruto, deducciones y otras deducciones, y cualquier
+    otra necesaria.
+    8. Debe de usar interfaces gráficas para mostrar las estructuras de
+    datos indicadas en los puntos anteriores.
+
+Salidas:
+1. Debe de mostrar gráficamente exactamente la información en las
+estructuras de datos indicadas anteriormente, y exactamente para los
+procesos:
+    1. “Clacular Neto Empleado”
+    2. “Obtener Neto por Horas”
+    3. “Calcular Neto por Contrado”
+    4. Y gráficamente mostrar la impresión de los datos del cheque.
+
+Archivos, guardar y cargar:
+    Crear una clase Archivos que trabajen de manera genérica para tener un guardar y cargar siempre y se puedan utilizar al final de cada proceso

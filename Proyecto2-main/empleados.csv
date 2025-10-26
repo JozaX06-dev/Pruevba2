@@ -1,0 +1,11 @@
+id,nombre,apellido,departamento,puesto,salario,tipo_pago,fecha_ingreso
+EMP001,Juan,Pérez,Ingeniería,Desarrollador Senior,3500.00,Quincenal,2020-01-15
+EMP002,María,García,Administración,Gerente de RRHH,4200.00,Semanal,2019-03-20
+EMP003,Carlos,López,Ventas,Ejecutivo de Ventas,2800.00,Quincenal,2021-06-10
+EMP004,Ana,Martínez,Ingeniería,QA Tester,2500.00,Quincenal,2021-09-01
+EMP005,Pedro,Rodríguez,Administración,Contador,3200.00,Semanal,2018-11-05
+EMP006,Laura,Fernández,Ingeniería,Desarrollador Junior,2200.00,Quincenal,2022-01-20
+EMP007,Diego,Sánchez,Ventas,Coordinador de Ventas,3000.00,Quincenal,2020-07-15
+EMP008,Sofia,Torres,Ingeniería,DevOps Engineer,3800.00,Quincenal,2019-12-01
+EMP009,Miguel,Ramírez,Administración,Asistente Administrativo,1800.00,Quincenal,2022-03-10
+EMP010,Carmen,Flores,Ventas,Representante de Ventas,2400.00,Semanal,2021-11-22
